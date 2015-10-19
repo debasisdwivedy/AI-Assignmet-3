@@ -1,0 +1,73 @@
+1.
+
+Total combination possible for 8 parakeets= 8!
+Total permutation of blue and green parakeets= 8! /  (4! * 4!)
+
+The arrangements for no two packets of same color can be either: - (GBGBGBGB) or (BGBGBGBG)
+
+So the probability that no two adjacent packets to be of the same color are :-
+
+2 / (8! / 4! * 4!)= (1/35)
+
+
+2.
+
+Number of  cores in a CPU :- 8
+Probability of defect of a core = p(d)= 0.3
+Probability of not defect of a core= 1- p(d)= p(d’)= 0.7
+
+a)
+
+Probability of one functioning core= p(d)=0.7
+Probability of 8 functioning core= p(d) ^ 8= 0.7 ^ 8= 0.05764
+
+b)
+
+There are 3 models possible:-
+
+Extreme :- Extreme has no defects. So the probability is:- 0.7 ^ 8 = 0.05764
+	        The number of Extreme CPU’s are= 0.05764 * 1000= 58
+
+Advanced:- Advanced has atleast one working core. So the probability is:-
+[(0.7 ^ 4) * (0.3 ^ 4) + (0.7 ^ 5) * (0.3 ^ 3) + (0.7 ^ 6) * (0.3 ^ 2) + (0.7 ^ 7) * (0.3 ^ 1) ] = 
+
+The Number of advanced CPU’s are =  [0.2401 * 0.0081 + 0.16807 *0.027 + 0.1176 * 0.09 + 0.0823* 0.3]
+
+Great = At least one core is functioning. The probability is :- [1- (0.3 ^ 8)] = 
+
+C) 
+Expected revenue = (50 * ) + (100* ) + (1000 * )=
+
+3.
+
+ When guilty:-
+
+Probability of convicted= 0.7
+Probability of not convicted= 0.3
+Probility of not guilty:-
+
+Probability of convicted= 0.2
+Probabilty of not convicted= 0.8
+
+Probilty of guilty= 0.7
+Probability of not guilty= 0.3
+
+a) p(g|j) = [p(j|g) * p(G)] / p(j) = 0.7 * 0.7 / [p(j|g) p(g) + p(j|G’) p(g’)]= 
+0.49/ 0.49*0.2*0.3 = 0.89
+
+b) Probability that the accused person is guilty :-
+
+p(g|v1v2v3)= [p(v1|g) p(v2|g) p(v3|g) p(g)] / p(v1,v2,v3 |g) + p(v1,v2,v3 | g’) = 0.7*0.7*0.7*0.7 / p(v1,v2,v3 |g) + p(v1,v2,v3 | g’)
+
+p(v1,v2,v3 |g)	= p(v1|g) p(v2|g) p(v3|g) p(g)= 0.7*0.7*0.7*0.7
+
+p(v1v2v3 | g’) = p(v1|g’) p(v2|g’) p(v3|g’)= 0.2 * 0.2 * 0.2 * 0.3 
+
+Given all conditions:-
+
+p(g|v1v2v3)= 0.9901	
+
+
+c)
+
+p(j=3 | G) =
